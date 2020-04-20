@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pinterest Clone</title>
+</head>
+<body>
+<h1>Create pin</h1>
+
+<form method="post">
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button type="submit">Create pin</button>
+    {{ form_end(form) }}
+
+
+
+    {#<input name="_token" value="{{ csrf_token('pins_create') }}" hidden/>
+
+    <div>
+        <label for="title">Title</label><br>
+        <input id="title" name="title" type="text"/>
+    </div><br>
+
+    <div>
+        <label for="description">Description</label><br>
+        <textarea id="description" name="description" rows="5" cols="60"></textarea>
+    </div><br>
+
+    <button type="submit" value="1">Create pin</button>#}
+</form>
+</body>
+</html>
